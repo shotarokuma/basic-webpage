@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta name="description" content="this site introduce history of animation, spcifically handwriting animation, cg animation, and anime">
+    <title>Snow White and the Seven Dwarfs</title>
+    <link rel="stylesheet" href="../project.css">
+    <style>
+      ul li{
+        display: flex;
+        align-items: top;
+      }
+
+      #content{
+        flex-direction: row-reverse;
+      }
+
+      #para1{
+        padding-left: 20px;
+      }
+
+      #para2{
+        padding-right: 20px; 
+      }
+
+      #img1{
+        height: 350px;
+        width: 500px;
+        padding-left: 20px;
+      }
+
+      #img2{
+        height: 350px;
+        width: 500px;
+        padding-right: 20px;
+      }
+
+      @media only screen and (max-width:768px){
+       ul li{
+        display: block;
+        }
+        #img1{
+        height:75%;
+        width: 75%;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left:auto ;
+      }
+
+      #img2{
+        height: 75%;
+        width: 75%;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left:auto ;
+      }
+      #para1{
+        padding-left: 0px;
+      }
+
+      #para2{
+        padding-right: 0px; 
+      }
+      header img{
+        display: block;
+      }
+      }
+    </style>
+  </head>
+  <body id="wrapper">
+    <header>
+      <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../contact.html">Contact</a>
+    </nav>
+    </header>
+    <main>
+      <h2>Snow White and the Seven Dwarfs</h2>
+      <ul>
+        <li>
+          <img src="../img/movie1-1.jpg" alt="Snow White" id="img1">
+          <p id="para1">Snow White and the Seven Dwarfs became Disney's first feature animation.This movie has changed the way people think about animation.In the past, animation was nothing but children's entertainment, but since this time animation has come to be considered as a work of art. </p>
+        </li>
+        <li id="content">
+          <img src="../img/movie1-2.png" alt="Snow White" id="img2">
+          <p id="para2">The special effects animation by using multiplane camera,an invention which split animation artwork layers into several planes made animation vivid and ralistic.Snow White and the Seven Dwarfs have achieved unprecedented success. In 1999, it recorded record sales of $145,304,960. </p>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <i>
+        <p>
+          Copyright &copy; 2020 Shotao Kumagai
+        </p>
+      </i>
+      </small></i>
+    </footer>
+  </body>
+</html>

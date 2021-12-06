@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta name="description" content="this site introduce history of animation, spcifically handwriting animation, cg animation, and anime">
+    <title>Astro boy</title>
+    <link rel="stylesheet" href="../project.css">
+    <style>
+      ul li{
+        display: flex;
+        align-items: top;
+      }
+
+      #content{
+        flex-direction: row-reverse;
+      }
+
+      #para1{
+        padding-left: 20px;
+      }
+
+      #para2{
+        padding-right: 20px; 
+      }
+
+      #img1{
+        height: 300px;
+        width: 450px;
+        padding-left: 20px;
+      }
+
+      #img2{
+        height: 350px;
+        width: 450px;
+        padding-right: 20px;
+      }
+      @media only screen and (max-width:768px){
+       ul li{
+        display: block;
+        }
+        #img1{
+        height:75%;
+        width: 75%;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left:auto ;
+      }
+
+      #img2{
+        height: 75%;
+        width: 75%;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left:auto ;
+      }
+      #para1{
+        padding-left: 0px;
+      }
+
+      #para2{
+        padding-right: 0px; 
+      }
+      
+      header img{
+        display: block;
+      }
+      }
+
+    </style>
+  </head>
+  <body id="wrapper">
+    <header>
+      <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../contact.html">Contact</a>
+    </nav>
+    </header>
+    <main>
+      <h2>Astro boy</h2>
+      <audio controls>
+        <source src="audio1.mp3" type="audio/mp3">
+          Your browser does not support
+      </audio>
+      <ul>
+        <li>
+          <img src="../img/movie3-1.jpg" alt="Astro boy" id="img1">
+          <p id="para1">
+            Astro Boy is one of the most successful manga and anime in the world and has made Osamu Tezuka most famous in the world.The story follows Astro Boy, an android young boy having human emotions who is created by Umataro Tenma because of the death of his son. Astro boy behave as if he was human.
+          </p>
+        </li>
+        <li id="content">
+          <img src="../img/movie3-2.jpg" alt="Astro boy" id="img2">
+          <p id="para2">
+            Osamu's prolific output, pioneering techniques, and innovative redefinitions of genres made peopele kook for him as "the Father of Manga", "the Godfather of Manga" and "the God of Manga".Also he is often considered the Japanese equivalent to Walt Disney served as a major inspiration.
+          </p>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <i>
+        <p>
+          Copyright &copy; 2020 Shotao Kumagai
+        </p>
+      </i>
+      </small></i>
+    </footer>
+  </body>
+</html>

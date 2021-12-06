@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<!-- shoatao Kumagai
+100349231 -->
+ <!-- form and table is in footer of home when using desktop -->
+ <!-- javascript is in home.-onload img and click img -->
+<!-- video is in hand writing/audio is in anime -> astroboy  -->
+
+
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width-device-width, initial-scale=1">
+  <meta name="description" content="this site introduce history of animation, spcifically handwriting animation, cg animation, and anime">
+  <title>Home</title>
+  <link rel="stylesheet" href="project.css">
+  <style>
+    #cover{
+  margin-left: 30px;
+  height: 600px;
+}
+
+#bg{
+  float: right;
+  height:380px;
+  margin-left: 50px
+}
+
+
+main{
+  height: 610px;
+}
+
+  footer{
+      clear: right;
+    }
+    @media only screen and (max-width:1024px){
+      footer{
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body id="wrapper">
+  <header>
+    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+    <nav>
+    <a href="contact.html">Contact</a>
+   </nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hand writing/handwriting.html">Handwriting animation</a></li>
+      <li><a href="cg/cg.html">CG animation</a></li>
+      <li> <a href="anime/anime.html">Anime</a></li>
+    </ul>
+  </header>
+  <main>
+  <div id="cover">
+    <nav id="mainnav">
+      <a href="hand writing/handwriting.html">Handwriting 
+      animation</a>
+       <a href="cg/cg.html">CG animation</a>
+       <a href="anime/anime.html">Anime</a>
+     </nav>
+      <div id="cover">
+        <div id="para">
+        <h1 class="title">Introdusing Animation history</h1>
+        <p>
+          This site introduces the history and current state of animation. <br  />
+          It's really interesting to look back at past masterpieces up to now.
+          The masterpieces of the past make contemporary films.
+          First, let's take a look at handwritten animations along with Disney's history. Secondly, we will introduce animation technology using cg technology. Finally, I would like to introduce the animation developed in a foreign land.
+          You can jump to the page of each field from the link.
+        </p>
+      </div>
+        <img src="img/main.png" alt="bg" class="mobile" id="bg"  onload="message()">
+      </div>
+      </main>
+    <footer>
+      <i>
+        <p>
+          Copyright &copy; 2020 Shotao Kumagai
+        </p>
+      </i> 
+    </footer>
+    <script>
+      let bg = document.getElementById('bg');
+      bg.addEventListener('click',function(){
+        alert("enjoy!!")
+      });
+      function message(){
+        alert("welcome!!")
+      }
+    </script>
+</body>
+
+</html>
